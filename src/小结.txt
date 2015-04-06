@@ -1,0 +1,27 @@
+DataSource  &  RowSet：(j2ee的标准).
+
+1.DataSource
+  1)DriverManager的替代者，DriverManager只是能够提交与数据库的连接效率，不能很好的解决连接池实现问题，以及分布式实现。
+  2)连接池实现
+  3)分布式实现
+  4)DataSource中的属性可以动态的改变。
+2.RowSet(还是支持图形化的接口)
+  1)新的ResultSet
+  2)从resultset继承
+  3)支持断开的结果集
+  4)支持JavaBean标准。
+  
+注：最直接的JDBC中我们是使用DriverManager来实现，有利于提高与数据库的连接效率，
+
+3.如何掌握JDBC？
+ 1)记住常用各种类型程序段
+ 如：TestHandlerExceptionJDBC.java;
+   TextDML.java;
+   TestPrepStmt.java;
+   TestTransaction.java.
+ 2)将程序处理完善
+   1>JDBC初步
+   2>DML
+   3>Transaction
+   4>DataSource  &  RowSet
+  
